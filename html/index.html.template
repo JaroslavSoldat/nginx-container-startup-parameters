@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Link to ${SOME_NAME}</title>
+</head>
+
+<body>
+    <div>
+        <a href="${SOME_URL}">${SOME_NAME}</a>
+    </div>
+    <div>
+        Hostname (by Docker Engine): ${HOSTNAME}
+    </div>
+    <div>
+        Hginx version (by Nginx image): ${NGINX_VERSION}
+    </div>
+</body>
+
+</html>
